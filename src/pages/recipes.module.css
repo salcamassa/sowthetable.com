@@ -1,0 +1,26 @@
+.tagsContainer{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.tagItem{
+    list-style:none;
+    color: black !important;
+}
+
+.mainContainer{
+    margin-left: 200px;
+    text-align: center;
+}
+
+.recipesHeader{
+    text-align: center;
+}
+
+.recipesContainer{
+    margin: 5% !important;
+}

@@ -1,0 +1,141 @@
+/* gallery styles */
+.gallery {
+    margin: 5%;
+    /* TODO: set up media queries or something to fix odd margin on mobile/smaller screens */
+  }
+  
+  .gallery > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    margin-left: 0px !important;
+    
+  }
+  
+  .gallery > ul > a {
+    margin-bottom:1rem;
+  }
+  
+  .gallery > ul > a > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+    margin-bottom: .5rem !important;
+  }
+  
+  .gallery > ul > li > figure > img {
+    width: 100%;
+  }
+  
+  .gallery > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+  }
+  
+  .gallery > ul > li > figure > figcaption > h3 {
+    color: white;
+    padding: .25rem;
+    font-size: 1.25rem;
+  }
+  
+  .gallery > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+  }
+  
+  .gallery > ul > li > a {
+    padding: 4rem;
+    margin: .5rem;
+  }
+
+  .gallery h3 {
+    margin-top: .5rem !important;
+}
+  .gallery figure {
+    margin-bottom: .5rem !important;
+  }
+  .categoryLink {
+    color: darkslategray;
+    font-size: large;
+    font-style: bold;
+    background-image: url('../images/blurbg.jpg');
+    background-size: cover;
+  }
+
+  .categoryItem {
+    text-align: center;
+  }
+
+  .categoryContainer{
+    margin-bottom: 1rem;
+  }
+
+  .breweries {
+
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  .breweries > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin: .5rem 2rem;
+  }
+  
+  .breweries > ul > li {
+    border: 1px solid #E2E2E2;
+    border-radius: .5rem;
+
+  }
+  
+  .breweries > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+  }
+  
+  .breweries > ul > li > figure > img {
+    width: 100%;
+  }
+  
+  .breweries > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+  }
+  
+  .breweries > ul > li > figure > figcaption > h3 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+  
+  .breweries > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+  }
+  
+  .breweries > ul > li > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+
+  
+  
+
+
