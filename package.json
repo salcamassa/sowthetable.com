@@ -11,7 +11,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "@emotion/core": "^10.0.27",
@@ -25,7 +26,7 @@
     "autocomplete.js": "^0.37.0",
     "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
-    "gatsby": "2.17.16",
+    "gatsby": "2.20.24",
     "gatsby-image": "^2.2.37",
     "gatsby-plugin-algolia": "^0.5.0",
     "gatsby-plugin-catch-links": "^2.1.25",
@@ -51,11 +52,8 @@
     "typography-theme-st-annes": "^0.16.19"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
