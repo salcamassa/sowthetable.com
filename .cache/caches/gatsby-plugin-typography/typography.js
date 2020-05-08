@@ -1,1 +1,0 @@
-module.exports = require("/Users/salcamassa/Projects/sowthetable.com/src/utils/typography")
